@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.post {
+    border: 1px solid black;
+    text-align: left;
+
+    min-height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.post > img {
+    width: 20vw;
+    height: 20vw;
+}

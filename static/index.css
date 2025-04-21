@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+#catalog {
+    display: flex;
+    width: 98vw;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.catalog-entry {
+    border: 1px solid black;
+    max-width: 15vw;
+    max-height: fit-content;
+    margin-bottom: 2vh;
+}
+
+.catalog-entry-img {
+    width: 14vw;
+    height: 14vw;
+    margin: 0.5vw;
+}
+
+.catalog-entry-text {
+    overflow-y: scroll;
+    text-overflow: clip;
+
+    max-height: 20vh;
+}
